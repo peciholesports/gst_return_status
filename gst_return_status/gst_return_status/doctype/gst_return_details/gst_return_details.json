@@ -1,0 +1,67 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2022-10-04 11:04:35.294722",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "gstr",
+  "status",
+  "dof",
+  "month",
+  "year",
+  "autocomplete_6"
+ ],
+ "fields": [
+  {
+   "columns": 2,
+   "fieldname": "gstr",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Month"
+  },
+  {
+   "columns": 2,
+   "fieldname": "dof",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "DOF"
+  },
+  {
+   "fieldname": "month",
+   "fieldtype": "Data",
+   "label": "month"
+  },
+  {
+   "fieldname": "year",
+   "fieldtype": "Data",
+   "label": "year"
+  },
+  {
+   "columns": 2,
+   "default": "Filed",
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Status"
+  },
+  {
+   "fieldname": "autocomplete_6",
+   "fieldtype": "Autocomplete"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-10-04 13:45:15.844575",
+ "modified_by": "Administrator",
+ "module": "GST Return Status",
+ "name": "GST Return Details",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
